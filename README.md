@@ -1,6 +1,3 @@
-Here’s a detailed README file for your **gRPC_bp_rust** project:
-
----
 
 # gRPC_bp_rust
 

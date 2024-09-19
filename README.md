@@ -1,2 +1,2 @@
-# gRPC_bp
-Boilerplate for building gRPC microservices in Rust and Go. Each branch provides a ready-to-use setup with client and server implementations, leveraging best practices for each language. Ideal for kickstarting scalable, high-performance gRPC-based systems.
+# gRPC_bp_rust
+A boilerplate for building gRPC microservices in Rust. Includes async server and client setup using tonic and tokio, with auto-generated protobuf support. Ideal for high-performance, async services with gRPC in Rust

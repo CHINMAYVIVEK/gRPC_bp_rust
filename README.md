@@ -85,37 +85,6 @@ docker run -p 50051:50051 grpc_bp_rust
 
 This will start the gRPC server in a container and expose it on port `50051`.
 
-## Folder Structure
-
-```bash
-.
-├── src
-│   ├── client.rs           # Client implementation
-│   ├── server.rs           # Server implementation
-│   └── proto               # Generated protobuf code
-├── proto
-│   └── service.proto       # Protobuf service definition
-├── build.rs                # Build script for protobuf generation
-├── Dockerfile              # Multi-stage Dockerfile
-├── Cargo.toml              # Rust dependencies and project configuration
-└── README.md               # Project documentation
-```
-
-- **`src/client.rs`**: Contains the client-side gRPC logic for making requests.
-- **`src/server.rs`**: Contains the server-side gRPC logic for handling requests.
-- **`proto/service.proto`**: The Protobuf file defining the gRPC service and messages.
-- **`build.rs`**: A build script that automatically compiles the `.proto` files into Rust code.
-- **`Dockerfile`**: Multi-stage Dockerfile for building and running the server inside a container.
-
-## Dependencies
-
-The project uses the following key dependencies:
-
-- [`tonic`](https://github.com/hyperium/tonic): A Rust gRPC framework.
-- [`tokio`](https://github.com/tokio-rs/tokio): An asynchronous runtime for Rust.
-- [`prost`](https://github.com/danburkert/prost): A Protobuf implementation for Rust.
-- [`tonic-build`](https://github.com/hyperium/tonic/tree/master/tonic-build): Generates gRPC code from `.proto` files.
-
 ## Customization
 
 To customize the service, modify the `.proto` file in the `proto/` directory, then run the following to regenerate the Rust code:

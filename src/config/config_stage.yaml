@@ -1,0 +1,14 @@
+client:  
+  address: "localhost"  
+  port: 50052
+  
+database:  
+  user: "stage_user"  
+  password: "stage_password"  
+  host: "stage_db_host"  
+  port: 5432  
+  dbname: "stage_database"
+
+api:  
+  product_service: "https://api.stage.example.com/products"  
+  user_service: "https://api.stage.example.com/users"

@@ -1,0 +1,6 @@
+services:
+  health_check:
+    enabled: true
+    route: "/healthcheck"
+    method: "GET"    
+   

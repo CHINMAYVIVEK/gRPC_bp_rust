@@ -1,0 +1,14 @@
+client:  
+  address: "localhost"  
+  port: 50051
+  
+database:  
+  user: "prod_user"  
+  password: "prod_password"  
+  host: "prod_db_host"  
+  port: 5432  
+  dbname: "prod_database"
+  
+api:  
+  product_service: "https://api.prod.example.com/products"  
+  user_service: "https://api.prod.example.com/users"

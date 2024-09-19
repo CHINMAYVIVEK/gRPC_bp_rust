@@ -1,0 +1,16 @@
+services:
+  user_service:
+    enabled: true
+    route: "/user"
+
+  product_service:
+    enabled: true
+    route: "/product"
+
+  cart_service:
+    enabled: true
+    route: "/cart"
+
+  homepage_service:
+    enabled: true
+    route: "/homepage"
